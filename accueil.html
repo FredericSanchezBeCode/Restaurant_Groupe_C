@@ -5,24 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><Main>Mangez Grillé</Main></title>
     <!--Lien css -->
-    <link rel="stylesheet" href="asset/css/bootstrap.css">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rye&display=swap" rel="stylesheet">
+    <!--couleurs red: F8121D yellow: F0A202 darkblue: 202C59 brown: 581F18-->
+    <style>
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+h1, h2, h3 {
+  font-family: 'Rye', cursive;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #202C59;
+  text-decoration: none;
+}
+
+.navbar-layout {
+  background-color: #F8121D;
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+  font-family: 'Rye', cursive;
+  letter-spacing: 0.1rem;
+  }
+
+  .jumbotron-accueil {
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40rem;
+  }
+
+  .bg-jumbotron {
+    background-color: #202c5962;
+  }
+  
+</style>
 </head>
 <body>
     <div class="bg-light">
         <div class="container-fluid">
             <div class="row">
                 <!-- navigation -->
-                <nav class="col navbar navbar-expand-md bg-danger navbar-light">
-                    <a class="navbar-brand" href="...">
-                        <img src="./img/logo_blc_mangez_grille.png" width="150" alt="Site logo">
+                <nav class="col navbar navbar-expand-md navbar-layout navbar-light px-md-5 fixed-top-md">
+                    <a class="navbar-brand" href="accueil.html">
+                        <img src="assets/img/logo_blc_mangez_grille.png" width="150" alt="Mangez grillé">
                         <!-- titre du site si besoin -->
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
-                        <ul class="navbar-nav">
+                    <div id="navbarContent" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav text-uppercase">
                             <li class="nav-item">
                                 <a class="nav-link" href="carte.html">La carte</a>
                             </li>
@@ -37,21 +82,29 @@
                             </li>
                         </ul>
                     </div>
+                    <form class="form-inline d-none d-md-inline-block">
+                        <button class="btn btn-outline-light" type="button">Réservez</button>
+
+                    </form>
                 </nav>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <!-- Jumbotron Call-to-action-->
-                    <div class="jumbotron jumbotron-fluid">
+                    <div class="jumbotron jumbotron-fluid jumbotron-accueil px-md-5">
                         <div class="container-fluid">
-                            <h1>Mangez grillé</h1>
+                            <div class="bg-jumbotron d-inline-block p-3">
+                                <h2 class="h1">Mangez grillé</h2>
+                                <p class="h1">Il faut oser...</p>
+                                <button type="button" class="btn btn-dark mt-md-3"> <p class="h4">Une petite faim ? Ne crains rien !</p></button>
+                            </div>
                         </div>
-                        <button type="button" class="btn btn-dark">Une petite faim ? Clique sur le lien !</button>
                     </div>
                 </div>
             </div>
+        </div>
         <div class="container">
             <div class="row">
                 <!-- Offre promotionnelle -->
@@ -71,6 +124,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         <!-- Footer -->
         <div class="container-fluid">
             <div class="row">
