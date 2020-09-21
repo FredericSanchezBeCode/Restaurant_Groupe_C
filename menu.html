@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="asset/css/bootstrap.css">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+<!--
+        <style>
+body{
+    text-align: center;
+    
+    .myback{
+        background-color: #b2671c;
+    }
+
+    .menu pour changer l ecriture de tout les menus ainsi que la centré
+
+    .entre classe crée afin de modifier le paragraphe de toutes les entrée des menus
+
+    .plat classe crée afin de modifier le paragraphe de tous les plats des menus
+
+    .dessert classe crée afin de modifier le paragraphe de tous les desserts
+}-->
+
 </head>
     <header>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt odit assumenda ab, debitis eum perferendis numquam in minus vitae voluptatem consectetur dignissimos eaque porro et cupiditate laudantium eius veritatis iste?
@@ -18,70 +36,110 @@
 <body>
     <div class="container">
         <div class="container-fluid">
-            <div class="row p-2">
-                <div class="col-md-8 offset-md-2">
-                    <p class="menu">
-                    Menu Insecte
-                    <span class="badge badge-dark badge-pill">20€</span>
-                    </p>
+            <div class="myback">
+                <div class="row p-2">
+                    <div class="col-md-8 col-8 offset-md-2">
+                        <p class="menu">
+                        Menu Insecte
+                        <span class="badge badge-dark badge-pill">20€</span>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        Tapas de scarabées
-
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="entre">
+                            Tapas de scarabées
                         <span class="badge badge-dark badge-pill">7€</span>
-                    </p>
-                    <img src="asset/img/tapas.jpg" alt="tapas de scarabées">
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        Tacos de crevettes aux piments et criquets
+                        </p>
+                        <img src="assets/img/tapas.jpg" alt="tapas de scarabées">
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="plat">
+                            Tacos de crevettes aux piments et criquets
                         
-                        <span class="badge badge-dark badge-pill">13€</span>
-                    </p>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        Beignets aux grillons
-
+                            <span class="badge badge-dark badge-pill">13€</span>
+                        </p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="dessert">
+                            Beignets aux grillons
                         <span class="badge badge-dark badge-pill">7€</span>
-                    </p> 
-                </li>
-            </ul>
+                        </p> 
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="container-fluid">
-            <div class="row p-2">
-                <div class="col-md-8 offset-md-2">
-                    <p class="menu">
-                        Menu barbecue
-                        <span class="badge badge-dark badge-pill">25€</span>
-                    </p>
-                </div>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        Tartines Estivale
-                        <span class="badge badge-dark badge-pill">7€</span>
-                    </p>
-                    <img src="asset/img/tartine estival.jpg" alt="tartines estivale">
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        Brochettes de porc aux petits légumes, crème de pois chiches
-                        
-                        <span class="badge badge-dark badge-pill">13€</span>
-                    </p>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <p>
-                        bananes grillé au chocolat accompagné de sa boule vanille
 
-                        <span class="badge badge-dark badge-pill">7€</span>
+        <div class="container-fluid">
+            <div class="myback">
+                <div class="row p-2">
+                    <div class="col-md-8 col-8 offset-md-2">
+                        <p class="menu">
+                            Menu barbecue
+                        <span class="badge badge-dark badge-pill">25€</span>
+                        </p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="entre">
+                            Tartines Estivale
+                            <span class="badge badge-dark badge-pill">7€</span>
+                        </p>
+                    <img src="assets/img/tartine estival.jpg" alt="tartines estivale">
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="plat">
+                            Brochettes de porc aux petits légumes, crème de pois chiches
+                            <span class="badge badge-dark badge-pill">17€</span>
+                        </p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="dessert">
+                            bananes grillé au chocolat accompagné de sa boule vanille
+                            <span class="badge badge-dark badge-pill">6€</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="myback">
+                <div class="row p-2">
+                    <div class="col-md-8 col-8 offset-md-2">
+                        <p class="menu">
+                            Menu Nouilles
+                            <span class="badge badge-dark badge-pill">23€</span>
+                        </p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="entre">
+                            Salade de nouilles soba, concombre et hareng doux au sésame
+                            <span class="badge badge-dark badge-pill">7€</span>
+                        </p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="plat">
+                            Gratin de nouilles
+                            <span class="badge badge-dark badge-pill">15€</span>
+                        </p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p class="dessert">
+                            Arachides et nouilles chinoises sèches enrobées de chocolat
+                            <span class="badge badge-dark badge-pill">6€</span>
+                        </p>
+                    <img src="assets/img/nouille-choco.jpeg" alt="nouille au chocolat">
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    <!--footer-->
     
 </body>
 </html>
