@@ -7,9 +7,10 @@
 
 body {
   text-align: center;
+
 }
 
-body .container-fluid {
+.myback{
   background-color: #b2671c;
 }
 /*# sourceMappingURL=style.css.map */
