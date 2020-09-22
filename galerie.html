@@ -9,21 +9,90 @@
 
     <title>Document</title>
   <style>
-    body{
+    /* body{
       background-color: silver;
+    } */
+/* $red: #F8121D;
+$yellow: #F0A202;
+$darkblue: #202C59;
+$brown: #581F18;
+
+$primary: $red;
+$secondary: $yellow;
+
+$theme-colors: $primary;
+
+$link-color: $darkblue;
+$link-decoration: none;
+$link-hover-color: theme-color("primary");
+$link-hover-decoration: none;
+
+// Font Variables
+$body-font: 'Roboto', sans-serif;
+$title-font: 'Rye', cursive;
+
+// Styles */
+/* body {
+  font-family: Rye, cursive;
+  font-weight: normal;
+}
+h1, h2, h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+  a{
+    color: darkblue;
+    text-decoration: none;
     }
+    a:hover{
+  color: red;
+text-decoration: none;
+  } */
   </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Image Gallery</h2>
-
+  <div class="bg-light">
+    <div class="container-fluid">
         <div class="row">
+            <!-- navigation -->
+            <nav class="col navbar navbar-expand-md bg-danger navbar-light">
+                <a class="navbar-brand" href="...">
+                    <img src="assets/img/logo_blc_mangez_grille.png" width="150" alt="Site logo">
+                    <!-- titre du site si besoin -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="carte.html">La carte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerie.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="restaurants.html">Restaurants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="py-3">Image Gallery</h1>
+
+        <div class="row pb-5">
           <div class="col 12 col-md-4">
             <div class="thumbnail">
               <a href="page bbq" target="page bbq">
-                <img src="assets/img/chef1.jpg" alt="chef" style="width:100%">
+                <img src="assets/img/chef1.jpg" alt="chef" style="width:100%; height:30vh">
                 <div class="caption">
+                  <h2>Chef Charlie</h2>
                   <p>Voici notre chef du menu nouilles Charleroi</p>
                 </div>
               </a>
@@ -32,9 +101,10 @@
           <div class="col 12 col-md-4">
             <div class="thumbnail">
               <a href="page bbq" target="page bbq">
-                <img src="assets/img/noodles-5364951_1280.jpg" alt="nouilles" style="width:100%">
+                <img src="assets/img/noodles-5364951_1280.jpg" alt="nouilles" style="width:100%; height:30vh">
                 <div class="caption">
-                  <p>Plat de nouilles XXXXXXX.</p>
+                  <h2>Plat de nouilleds XXX</h2>
+                  <p>Plat de nouilles XXXXXXX composé de ....</p>
                 </div>
               </a>
             </div>
@@ -42,9 +112,10 @@
           <div class="col 12 col-md-4">
             <div class="thumbnail">
                 <a href="page bbq" target="page bbq">
-                    <img src="assets/img/nouilles3.jpg" alt="nouilles" style="width:100%">
+                    <img src="assets/img/nouilles3.jpg" alt="nouilles" style="width:100%; height:30vh">
                     <div class="caption text-center">
-                      <p>Plat de nouilles XXXXXXX.</p>
+                      <h2>Plat de nouilles XXXXXXX.</h2>
+                      <p>Plat de nouilles XXXXXXX ingrédient XXX.</p>
                 </div>
               </a>
             </div>
@@ -61,7 +132,7 @@
           <li class="page-item"><a class="page-link" href="gallery/page2.html">Next</a></li>
         </ul>
       </nav>
-      <footer>
+      <!-- <footer>
         <div class="container-fluid">
           <div class="row">
               <nav class="col navbar navbar-expand-md bg-secondary navbar-dark justify-content-center">
@@ -84,9 +155,9 @@
                   </ul>
                   </div>
               </nav>
-              <div class="row">
+              <div class="row justify-content-center">
                 <p>@mentions légales</p>
-              </div>
+              </div> -->
           </div>
       </div>
       </footer>
