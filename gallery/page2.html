@@ -5,7 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rye&display=swap" rel="stylesheet">
+
     <title>Document</title>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+      }
+      h1, h2, h3 {
+        font-family: 'Rye', cursive;
+        font-weight: normal;
+      }
+      
+      a {
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      a:hover {
+        color: #202C59;
+        text-decoration: none;
+      }
+      
+      .navbar-layout {
+        background-color: #F8121D;
+      }
+      
+      nav .navbar-nav li a{
+        color: white !important;
+        font-family: 'Rye', cursive;
+        letter-spacing: 0.1rem;
+        }
+      
+        .jumbotron-accueil {
+          background-image: url(../img/jumbotron.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          min-height: 40rem;
+        }
+      
+        .bg-jumbotron {
+          background-color: #202c5962;
+        }
+        
+      </style>
 </head>
 <body>
   <div class="bg-light">
@@ -13,7 +58,7 @@
         <div class="row">
             <!-- navigation -->
             <nav class="col navbar navbar-expand-md bg-danger navbar-light">
-                <a class="navbar-brand" href="...">
+                <a class="navbar-brand" href="../accueil.html">
                     <img src="../assets/img/logo_blc_mangez_grille.png" width="150" alt="Site logo">
                     <!-- titre du site si besoin -->
                 </a>
@@ -23,7 +68,7 @@
                 <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="../carte.html">La carte</a>
+                            <a class="nav-link" href="../menu.html">La carte</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../galerie.html">Photos</a>
@@ -39,6 +84,7 @@
             </nav>
         </div>
     </div>
+  </div>
     <div class="container">
         <h2 class="py-3">Image Gallery</h2>
 
@@ -94,7 +140,7 @@
                           <a class="nav-link" href="accueil.html">Accueil</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="carte.html">La carte</a>
+                          <a class="nav-link" href="menu.html">La carte</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="galerie.html">Photos</a>
