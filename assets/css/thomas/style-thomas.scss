@@ -6,81 +6,25 @@
     font-family: "Rye";
     src: url(../../fonts/Rye/Rye-Regular.ttf);
 }
+$darkblue: #202C59;
+$primary: $darkblue;
 
 
 h2{
     font-family: "Rye";
 }
 
-h3{
+/*h3{
     position: relative;
-}
-
-.container{
-    .row{
-        .cart{
-            .txt{
-                position: absolute;
-                color: white;
-                opacity: 0;
-                transition: all 500ms;
-            }
-            .imgch{
-                opacity: 1;
-                transition: all 500ms;
-            }
-        }
-    }
-}
-
-.cart:hover{
-    .txt{
-        opacity: 1;
-    }
-    .img{
-        opacity: 0.5;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.container{
-    font-family: "Roboto";
-    .row{
-        //position: relative;
-        .cart{
-            .text{
-                position: absolute;
-                color: white;
-                opacity: 0;
-                transition: all 500ms;
-            }
-            img{
-                overflow: hidden;
-                opacity: 1;
-                transition: all 500ms;
-            }
-        }
-    }
-}
-.cart:hover{
-    .text{
-        opacity: 1;
-    }
-    img{
-        opacity: 0.5;
-    }
 }*/
+
+
+.bloc1{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 1px 1px 3px 0px;
+}
+
+.table {
+    margin: auto;
+    width: 50%; 
+ }
