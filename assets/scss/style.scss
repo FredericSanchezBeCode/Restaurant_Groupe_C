@@ -1,1 +1,45 @@
+body{
+    text-align: center;
+    
+    a{
+        text-align: center;
+        color: black;
+        background-color: white;
+        transition: all 1s ease-in-out;
+        width: 50%;
+    }
 
+    a:hover{
+        background-color: #b2671c;
+        color: white;
+        width: 75%;
+        transform: translate(4em,0)
+        
+    }
+
+    #menu-insecte{
+        text-transform: uppercase;
+    }
+
+    #menu-barbecue{
+        text-transform: uppercase
+    }
+
+    #menu-nouille{
+        text-transform: uppercase
+    }
+
+    .myback{
+        background-color: #b2671c;
+    }
+
+    img{
+        height: 30%;
+        width: 30%;
+        transition: all 1s ease-in-out;
+    }
+
+    img:hover{
+        transform: scale(1.1,) rotate(0.01turn);
+    }
+}
