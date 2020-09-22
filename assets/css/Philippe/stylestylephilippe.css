@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+
+body a {
+  text-align: center;
+  color: black;
+  background-color: white;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  width: 50%;
+}
+
+body a:hover {
+  background-color: #b2671c;
+  color: white;
+  width: 75%;
+  -webkit-transform: translate(4em, 0);
+          transform: translate(4em, 0);
+}
+
+body #menu-insecte {
+  text-transform: uppercase;
+}
+
+body #menu-barbecue {
+  text-transform: uppercase;
+}
+
+body #menu-nouille {
+  text-transform: uppercase;
+}
+
+body .myback {
+  background-color: #b2671c;
+}
+
+body img {
+  height: 30%;
+  width: 30%;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+body img:hover {
+  -webkit-transform: scale(1.1) rotate(0.01turn);
+          transform: scale(1.1) rotate(0.01turn);
+}
+/*# sourceMappingURL=stylestylephilippe.css.map */
