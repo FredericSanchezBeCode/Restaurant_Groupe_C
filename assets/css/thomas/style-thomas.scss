@@ -1,0 +1,86 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: "Rye";
+    src: url(../../fonts/Rye/Rye-Regular.ttf);
+}
+
+
+h2{
+    font-family: "Rye";
+}
+
+h3{
+    position: relative;
+}
+
+.container{
+    .row{
+        .cart{
+            .txt{
+                position: absolute;
+                color: white;
+                opacity: 0;
+                transition: all 500ms;
+            }
+            .imgch{
+                opacity: 1;
+                transition: all 500ms;
+            }
+        }
+    }
+}
+
+.cart:hover{
+    .txt{
+        opacity: 1;
+    }
+    .img{
+        opacity: 0.5;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+    font-family: "Roboto";
+    .row{
+        //position: relative;
+        .cart{
+            .text{
+                position: absolute;
+                color: white;
+                opacity: 0;
+                transition: all 500ms;
+            }
+            img{
+                overflow: hidden;
+                opacity: 1;
+                transition: all 500ms;
+            }
+        }
+    }
+}
+.cart:hover{
+    .text{
+        opacity: 1;
+    }
+    img{
+        opacity: 0.5;
+    }
+}*/
