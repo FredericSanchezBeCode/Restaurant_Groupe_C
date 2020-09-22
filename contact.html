@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/thomas/style-thomas.css">
         <title>
             Contact
         </title>
@@ -14,22 +15,32 @@
                 <div class="col-12 col-md-3">
 
                 </div>
-                <form class="form col-12 col-md-6 mt-5">
-                    <div class="form-group">
+                <!-- Form -->
+                <form class="form col-12 col-md-6 mt-5 bloc1">
+                    <!-- Title -->
+                    <div class="col-12 col-md-12 mt-3 text-center">
+                        <h2>Contact</h2>
+                    </div>
+
+                    <!-- Second name -->
+                    <div class="form-group mt-3">
                         <label for="name">Nom</label>
                         <input type="text" id="name" class="form-control">
                     </div>
                 
+                    <!-- First name -->
                     <div class="form-group">
                         <label for="secondname">Prénom</label>
                         <input type="text" id="secondname" class="form-control">
                     </div>
-                
+
+                    <!-- Email -->
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="text" id="email" class="form-control">
                     </div>
 
+                    <!-- Select -->
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Nombre d'enfant(s)</label>
                         <select class="form-control" id="exampleFormControlSelect1">
@@ -42,12 +53,18 @@
                         </select>
                     </div>
 
+                    <!-- Message -->
                     <div class="form-group">
-                        <label for="comment">Message (optionel)</label>
+                        <label for="comment">Message</label>
                         <textarea class="form-control" id="comment"></textarea>
                     </div>
 
-                    <button class="btn btn-primary"><span class="glyphicon glyphicon-home text-center"></span>Envoyez</button>
+                    <!-- Button -->
+                    <div class="col text-center mb-3">
+                        <button type="button" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Envoyez
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>

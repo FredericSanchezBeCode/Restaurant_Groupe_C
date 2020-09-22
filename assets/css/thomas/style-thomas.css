@@ -7,49 +7,15 @@
 h2 {
   font-family: "Rye"; }
 
-h3 {
-  position: relative; }
-
-.container .row .cart .txt {
-  position: absolute;
-  color: white;
-  opacity: 0;
-  transition: all 500ms; }
-.container .row .cart .imgch {
-  opacity: 1;
-  transition: all 500ms; }
-
-.cart:hover .txt {
-  opacity: 1; }
-.cart:hover .img {
-  opacity: 0.5; }
-
-/*.container{
-    font-family: "Roboto";
-    .row{
-        //position: relative;
-        .cart{
-            .text{
-                position: absolute;
-                color: white;
-                opacity: 0;
-                transition: all 500ms;
-            }
-            img{
-                overflow: hidden;
-                opacity: 1;
-                transition: all 500ms;
-            }
-        }
-    }
-}
-.cart:hover{
-    .text{
-        opacity: 1;
-    }
-    img{
-        opacity: 0.5;
-    }
+/*h3{
+    position: relative;
 }*/
+.bloc1 {
+  background-color: #fafafa;
+  box-shadow: 1px 1px 3px 0px; }
+
+.table {
+  margin: auto;
+  width: 50%; }
 
 /*# sourceMappingURL=style-thomas.css.map */
